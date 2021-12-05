@@ -1,0 +1,122 @@
+body{
+    background-color: #e2e8ff;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    margin: 50px auto 0 auto;
+    font-family: 'Acme', sans-serif;
+    color: #4E9F3D;
+}
+h2{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    color: #CC7351;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #11999E;
+    font-size: 30px;
+}
+p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+}
+.stronger{
+    font-weight: 600;
+}
+strong{
+    font-family: 'Acme', sans-serif;
+}
+.main-div{
+    background-color: #e2e8ff;
+}
+.text{
+    position: relative;
+    padding-top: 100px;
+    background-color: #191A19;
+}
+
+.text strong{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    position: relative;
+    left: 215px;
+    bottom: 50px;
+}
+.text p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    margin: 2px;
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: orange;
+    margin-top: 10px;
+    box-shadow: 2px 2px 30px greenyellow;
+}
+.btn:hover{
+    background-color: green;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 5%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.div-2{
+    position: relative;
+    top: 100px;
+}
+.center{
+    text-align: center;
+    display: flex;
+    display: grid;
+    margin: auto;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #343A40;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #39ff14;
+  }
+.skill-row{
+    position: relative;
+    top: 300px;
+}
+.cubed{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
